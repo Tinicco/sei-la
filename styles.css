@@ -1,0 +1,97 @@
+body {
+    background-color: black; 
+    color: white; 
+}
+.titulo{
+    text-align: center;
+    font-size: 4em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+}
+.ft-jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 5% 0;
+}
+.ft-jogo img {
+    max-width: 80%;
+    height: auto;
+  }
+.desenvolvimento{
+    text-align: center;
+    margin: 5% 19%;
+    font-size: 2.4em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.descrisao{
+    text-align: center;
+    margin: 5% 2%;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-jogo {
+    display: flex;
+    justify-content: space-between; /* Distribui as imagens uniformemente */
+  }
+  .image-container-jogo {
+    text-align: center; /* Centraliza o conteúdo dentro de cada container */
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .image-container-jogo img{
+    text-align: center; /* Centraliza o conteúdo dentro de cada container */
+    height: 380px; 
+  }
+  
+.h2{
+    font-size: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p{
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-cherry {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-cherry img {
+    display: inline-block;
+    align-items: center;
+    height: 550px; 
+    margin: 5% 0;
+}
+.container-cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-cell img {
+    width: 31%; /* A imagem ocupará 30% da largura do container */
+}
+.container-corea {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-corea img {
+    display: inline-block;
+    align-items: center;
+    height: 440px; /* Ajuste a altura conforme necessário */
+    margin: 5% 0;
+}
+.formulario{
+    text-align: center;
+    gap: 100px;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}

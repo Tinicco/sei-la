@@ -33,14 +33,14 @@ body {
 }
 .container-jogo {
     display: flex;
-    justify-content: space-between; /* Distribui as imagens uniformemente */
+    justify-content: space-between; 
   }
   .image-container-jogo {
-    text-align: center; /* Centraliza o conteúdo dentro de cada container */
+    text-align: center; 
     font-family:Arial, Helvetica, sans-serif;
   }
   .image-container-jogo img{
-    text-align: center; /* Centraliza o conteúdo dentro de cada container */
+    text-align: center; 
     height: 380px; 
   }
   
@@ -74,7 +74,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 .container-cell img {
-    width: 31%; /* A imagem ocupará 30% da largura do container */
+    width: 31%; 
 }
 .container-corea {
     display: flex;
@@ -86,7 +86,7 @@ body {
 .container-corea img {
     display: inline-block;
     align-items: center;
-    height: 440px; /* Ajuste a altura conforme necessário */
+    height: 440px; 
     margin: 5% 0;
 }
 .formulario{
